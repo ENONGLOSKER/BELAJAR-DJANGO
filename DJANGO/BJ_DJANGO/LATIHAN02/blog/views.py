@@ -84,3 +84,4 @@ def update(request,up_id):
         'datas': add_form
     }
     return render(request, 'blog/create.html',context)
+    

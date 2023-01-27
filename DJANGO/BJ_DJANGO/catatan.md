@@ -1,6 +1,22 @@
+------------------------------------------------
+#BELAJAR DJANGO
+-CRUD
+-AUTHENTICATION
+-AUTHORIZATION
+-PYMENT GETWAY
+#PROJECT
+-MANAJEMEN KARYAWAN
+-MANAJEMEN RUMAH SAKIT
+-BLOG
+-CHAT BOOT
+-PEMESANAN
+-ECOMERS
+
+------------------------------------------------
 01 MEMBUAT DAN MENJALANKAN  ENV
 python -m venv env
 env\Scripts\activate
+
 
 02 INSTALL DJANGO
 pip install django

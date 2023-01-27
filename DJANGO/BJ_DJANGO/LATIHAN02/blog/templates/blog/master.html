@@ -44,7 +44,15 @@
             <li><a href="#about">About</a></li>
             <li><a href="{%url 'post:blog'%}">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="{%url 'post:master'%}">Master</a></li>
+            <li  class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Akun
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/logout">Logout</a></li>                 
+                  <li><a class="dropdown-item" href="#">Resgister</a></li>                 
+                </ul>
+            </li>
           </ul>
         </nav>
         <!-- .navbar -->
@@ -106,7 +114,9 @@
               <h6 class="collapse-header">Akun</h6>
               <a class="collapse-item" href="#">Login</a>
               <a class="collapse-item" href="#">Register</a>
-              <div class="collapse-divider"></div>
+              <div class="collapse-divider">
+
+              </div>
             </div>
           </div>
         </li>
@@ -279,7 +289,7 @@
                   aria-haspopup="true"
                   aria-expanded="false">
                   <span class="mr-2 d-none d-lg-inline text-gray-600 small"
-                    >Elqusairi</span
+                    >{{user}}</span
                   >
                   <img
                     class="img-profile rounded-circle"
